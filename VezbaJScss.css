@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fffafa;
+}
+center {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+h2{
+  margin-bottom: 2%;
+}
+
+#Naslov,
+#Datum,
+#Tekst,
+#Stil,
+#If,
+#Switch,
+#Loops,
+#PromenaEl,
+#Math,
+#Alert,
+#Return,
+#Object,
+#Length,
+#Array,
+#Print,
+#IndexOf,
+#Slice,
+#Replace,
+#ToUpper,
+#ToLower,
+#Concat,
+#Mat {
+  display: none;
+}
+
+#Naslov,
+#Datum:target,
+#Tekst:target,
+#Stil:target,
+#If:target,
+#Switch:target,
+#Loops:target,
+#PromenaEl:target,
+#Math:target,
+#Alert:target,
+#Return:target,
+#Object:target,
+#Length:target,
+#Array:target,
+#Print:target,
+#IndexOf:target,
+#Slice:target,
+#Replace:target,
+#ToUpper:target,
+#ToLower:target,
+#Concat:target,
+#Mat:target {
+  display: block;
+}
+
+button {
+  transition: 1s;
+  background-color: #ff00ff;
+  border: 3px solid #9400d3;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+button:hover {
+  transition: 1s;
+  background-color: #9400d3;
+  border: 3px solid #ff00ff;
+  cursor: pointer;
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+#slika {
+  width: 350px;
+  height: 200px;
+}
